@@ -19,8 +19,8 @@ https://api.telegram.org/bot<token>/setwebhook?url=https://name-name.rhcloud.com
 Example: https://api.telegram.org/bot272831745:AAHqs25sFXDj2Gan-gjH9KdDoOkHcl8JyTo/setwebhook?url=https://short-bot-mutepuker.rhcloud.com/ShortLink.php
 ```
 
-Developer > [@MutePuker](https://telegram.me/MutePuker)
+<b>Developer</b> > [@MutePuker](https://telegram.me/MutePuker)
 
-Channel > [@MuteTeam](https://telegram.me/MuteTeam)
+<b>Channel</b> > [@MuteTeam](https://telegram.me/MuteTeam)
 
-Reports > [@MutePukerBot](https://telegram.me/MutePukerBot)
+<b>Reports</b> > [@MutePukerBot](https://telegram.me/MutePukerBot)

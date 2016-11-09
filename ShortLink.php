@@ -1,7 +1,7 @@
 <?php
 define('API_KEY', 'TOKEN');
 $admin = "ADMIN";
-function roonx($method,$datas=[]){
+function mute($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
     $ch = curl_init();
     curl_setopt($ch,CURLOPT_URL,$url);
@@ -27,7 +27,7 @@ $from = $update->message->from->id;
     ]);
   }
   if(preg_match('/^\/([sS]tart)/',$text)){
-	  roonx('sendMessage',[
+	  mute('sendMessage',[
       'chat_id'=>$chat_id,
       'text'=>"Hi 😉👋\nIm Bot Short LInker 😃\nPlease Send Your Link 🙌\n\n@MuteTeam",
       'parse_mode'=>'HTML'
@@ -37,7 +37,7 @@ $from = $update->message->from->id;
     $user = file_get_contents('user.txt');
     $member_id = explode("\n",$user);
     $member_count = count($member_id) -1;
-    roonx('sendMessage',[
+    mute('sendMessage',[
       'chat_id'=>$chat_id,
       'text'=>"👤 members : $member_count",
       'parse_mode'=>'HTML'
